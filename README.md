@@ -11,6 +11,8 @@
 
 The aim is to introduce hands-on coding on how to use Git for data management and joint coding, as well as the targets R-package for reproducible data pipelines.
 
+Fair warning: This short introduction is superficial. It will introduce you to the pure basics. But often these are enough to get started.
+
 ## What is Git?
 
 Git is a software which is used to keep track of files that are being simultaneously edited by multiple users (and allows you to publish them all). GitHub (owned by Microsoft), on the other hand, is a Git server. It's a remote location where you can host code that is stored in Git.
@@ -24,6 +26,17 @@ Targets has a minimum structure of
 ├── _targets.R
 ├── R/
 │   ├── functions.R
+```
+
+## Before we get started
+
+1.	Create a [GitHub account](https://github.com/)
+2.	Install [Git for Windows](https://git-scm.com/install/windows)
+3.	Install the R-package targets
+4.	Open a terminal and set up your Git information:
+```
+git config --global user.name "Mona Lisa"
+git config --global user.email "YOUR_EMAIL"
 ```
 
 ## Important Git vocabulary
